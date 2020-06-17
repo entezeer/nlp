@@ -1,13 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15e4b1e9-6308-4209-8ebd-6db3cee3ed58" name="Default" comment="" />
+    <list default="true" id="15e4b1e9-6308-4209-8ebd-6db3cee3ed58" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app/nlp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/nlp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/nlp/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/nlp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/nlp/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/processing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/processing/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/processing/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/processing/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/processing/education.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/processing/extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/processing/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/processing/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/processing/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/processing/skills.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/processing/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/processing/static/images/home-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/processing/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/processing/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/processing/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/processing/templates/messages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/processing/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/processing/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/processing/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nlp/processing/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/vkr$classifier.coverage" NAME="classifier Coverage Results" MODIFIED="1588523895266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/nlp/processing/spacy-ru/examples" />
+    <SUITE FILE_PATH="coverage/vkr$full_simple_example__1_.coverage" NAME="full_simple_example (1) Coverage Results" MODIFIED="1588523849765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/nlp/processing/spacy-ru/examples" />
+    <SUITE FILE_PATH="coverage/vkr$initru.coverage" NAME="initru Coverage Results" MODIFIED="1589109737918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/nlp/processing" />
+    <SUITE FILE_PATH="coverage/vkr$full_simple_example.coverage" NAME="full_simple_example Coverage Results" MODIFIED="1588519996848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/nlp/spacy-ru/examples" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -25,79 +59,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/nlp/nlp/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-              <folding>
-                <element signature="e#627#659#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/nlp/processing/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/nlp/processing/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            <state relative-caret-position="-705">
+              <caret line="53" column="74" selection-start-line="53" selection-start-column="74" selection-end-line="53" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/nlp/processing/templates/base.html">
+      <file leaf-file-name="extractor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/nlp/processing/extractor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-              <folding>
-                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/nlp/processing/templates/index.html">
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/nlp/processing/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/nlp/processing/static/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home-bg.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/nlp/processing/static/images/home-bg.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/nlp/processing/static/css/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="15" />
+            <state relative-caret-position="1080">
+              <caret line="72" column="47" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -108,9 +92,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Python Script" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -118,6 +102,11 @@
     <findStrings>
       <find>app</find>
       <find>med</find>
+      <find>title</find>
+      <find>homepage</find>
+      <find>home</find>
+      <find>skills.</find>
+      <find>education.txt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,18 +117,33 @@
       <list>
         <option value="$PROJECT_DIR$/app/nlp/nlp/styles.css" />
         <option value="$PROJECT_DIR$/app/nlp/nlp/templates/base.html" />
-        <option value="$PROJECT_DIR$/app/nlp/nlp/settings.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/nlp/nlp/urls.py" />
-        <option value="$PROJECT_DIR$/app/nlp/processing/urls.py" />
-        <option value="$PROJECT_DIR$/app/nlp/processing/models.py" />
         <option value="$PROJECT_DIR$/app/nlp/processing/admin.py" />
         <option value="$PROJECT_DIR$/app/nlp/processing/static/styles.css" />
-        <option value="$PROJECT_DIR$/app/nlp/processing/views.py" />
-        <option value="$PROJECT_DIR$/app/nlp/processing/templates/index.html" />
         <option value="$PROJECT_DIR$/app/nlp/processing/static/js/index.js" />
-        <option value="$PROJECT_DIR$/app/nlp/processing/templates/base.html" />
         <option value="$PROJECT_DIR$/app/nlp/processing/static/css/styles.css" />
+        <option value="$PROJECT_DIR$/app/nlp/processing/urls.py" />
+        <option value="$PROJECT_DIR$/app/nlp/processing/forms.py" />
+        <option value="$PROJECT_DIR$/app/nlp/nlp/settings.py" />
+        <option value="$PROJECT_DIR$/app/nlp/processing/initru.py" />
+        <option value="$PROJECT_DIR$/app/nlp/processing/skills.csv" />
+        <option value="$PROJECT_DIR$/app/nlp/processing/models.py" />
+        <option value="$PROJECT_DIR$/app/nlp/processing/templates/messages.html" />
+        <option value="$PROJECT_DIR$/app/nlp/processing/templates/index.html" />
+        <option value="$PROJECT_DIR$/app/nlp/processing/education" />
+        <option value="$PROJECT_DIR$/app/nlp/processing/diffs.txt" />
+        <option value="$PROJECT_DIR$/nlpvenv/lib64/python3.6/site-packages/pyresparser/constants.py" />
+        <option value="$PROJECT_DIR$/app/nlp/processing/migrations/0003_auto_20200504_1832.py" />
+        <option value="$PROJECT_DIR$/nlpvenv/lib/python3.6/site-packages/pyresparser/constants.py" />
+        <option value="$PROJECT_DIR$/app/nlp/processing/constants.py" />
+        <option value="$PROJECT_DIR$/app/nlp/processing/education.txt" />
+        <option value="$PROJECT_DIR$/app/nlp/processing/templates/base.html" />
+        <option value="$PROJECT_DIR$/app/nlp/processing/utils.py" />
+        <option value="$PROJECT_DIR$/app/nlp/processing/resume_parser.py" />
+        <option value="$PROJECT_DIR$/app/nlp/processing/extractor_from_text.py" />
+        <option value="$PROJECT_DIR$/app/nlp/processing/extractor_from_file.py" />
+        <option value="$PROJECT_DIR$/app/nlp/processing/views.py" />
       </list>
     </option>
   </component>
@@ -176,6 +180,41 @@
               <item name="vkr" type="b2602c69:ProjectViewProjectNode" />
               <item name="vkr" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="vkr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vkr" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vkr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vkr" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vkr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vkr" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="processing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vkr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vkr" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="processing" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vkr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="vkr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (vkr) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -187,17 +226,21 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../training" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/nlp/processing" />
+      <recent name="$PROJECT_DIR$/app/nlp/processing/templates" />
+      <recent name="$PROJECT_DIR$/app/nlp" />
       <recent name="$PROJECT_DIR$/app/nlp/processing/static/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/nlp/processing/static/css" />
+      <recent name="$PROJECT_DIR$/app/nlp" />
       <recent name="$PROJECT_DIR$/app/nlp/processing" />
+      <recent name="$PROJECT_DIR$/app/nlp/processing/static/css" />
       <recent name="$PROJECT_DIR$/app/nlp/nlp/static" />
     </key>
   </component>
@@ -212,6 +255,98 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Python.initru">
+    <configuration name="classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vkr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/nlp/processing/spacy-ru/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/nlp/processing/spacy-ru/examples/classifier.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="full_simple_example (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vkr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/nlp/processing/spacy-ru/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/nlp/processing/spacy-ru/examples/full_simple_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="full_simple_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vkr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/nlp/spacy-ru/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/nlp/spacy-ru/examples/full_simple_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="initru" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vkr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/nlp/processing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/nlp/processing/initru.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.full_simple_example" />
+      <item itemvalue="Python.initru" />
+      <item itemvalue="Python.full_simple_example (1)" />
+      <item itemvalue="Python.classifier" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.initru" />
+        <item itemvalue="Python.classifier" />
+        <item itemvalue="Python.full_simple_example (1)" />
+        <item itemvalue="Python.full_simple_example" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -230,13 +365,13 @@
     <frame x="59" y="27" width="1307" height="741" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5003965" side_tool="true" weight="0.22628951" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3283582" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22628951" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2815226" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.327787" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3294509" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49960348" visible="true" weight="0.32445922" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24583663" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.3298969" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -249,7 +384,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294509" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -282,114 +417,71 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/nlp/nlp/urls.py">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/web-forms.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <element signature="e#627#659#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="146">
+          <caret line="558" column="22" selection-start-line="558" selection-start-column="22" selection-end-line="558" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/processing/urls.py">
+    <entry file="file://$PROJECT_DIR$/nlpvenv/lib/python3.6/site-packages/django/db/models/fields/files.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/processing/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        <state relative-caret-position="146">
+          <caret line="222" column="53" selection-start-line="222" selection-start-column="53" selection-end-line="222" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/nlp/nlp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+        <state relative-caret-position="1860">
+          <caret line="124" column="26" selection-start-line="124" selection-start-column="26" selection-end-line="124" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/processing/models.py">
+    <entry file="file://$PROJECT_DIR$/app/nlp/ru2/examples.py" />
+    <entry file="file://$PROJECT_DIR$/app/nlp/ru2/lemmatizer.py" />
+    <entry file="file://$PROJECT_DIR$/app/nlp/ru2/training.log" />
+    <entry file="file://$PROJECT_DIR$/app/nlp/ru2/tokenizer" />
+    <entry file="file://$PROJECT_DIR$/app/nlp/spacy-ru/tokenize-ru.sh" />
+    <entry file="file://$PROJECT_DIR$/app/nlp/spacy-ru/examples/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/app/nlp/spacy-ru/examples/classifier.py" />
+    <entry file="file://$PROJECT_DIR$/app/nlp/spacy-ru/examples/full_simple_example.py" />
+    <entry file="file://$PROJECT_DIR$/app/nlp/spacy-ru/ru2/syntax_iterators.py" />
+    <entry file="file://$PROJECT_DIR$/app/nlp/spacy-ru/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/app/nlp/spacy-ru/setup.py" />
+    <entry file="file://$PROJECT_DIR$/app/nlp/spacy-ru/utils/corpus.py" />
+    <entry file="file://$PROJECT_DIR$/app/nlp/spacy-ru/utils/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/app/nlp/spacy-ru/ru2/examples.py" />
+    <entry file="file://$PROJECT_DIR$/app/nlp/spacy-ru/ru2/lemmatizer.py" />
+    <entry file="file://$PROJECT_DIR$/app/nlp/spacy-ru/ru2/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/app/nlp/spacy-ru/ru2/training.log" />
+    <entry file="file://$PROJECT_DIR$/nlpvenv/lib/python3.6/site-packages/pyresparser/resume_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="1815">
+          <caret line="127" column="13" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/processing/admin.py">
+    <entry file="file://$PROJECT_DIR$/nlpvenv/lib/python3.6/site-packages/pyresparser/custom_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        <state relative-caret-position="2070">
+          <caret line="146" column="20" selection-start-line="146" selection-start-column="20" selection-end-line="146" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/nlpvenv/lib/python3.6/site-packages/spacy/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        <state relative-caret-position="345">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/processing/static/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/app/nlp/processing/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/processing/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/nlp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <element signature="e#627#659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/processing/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/processing/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/nlp/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/processing/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/nlp/processing/initru.py" />
+    <entry file="file://$PROJECT_DIR$/app/nlp/processing/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/nlp/processing/admin.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -398,135 +490,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/app/nlp/processing/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/nlp/processing/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        <state relative-caret-position="210">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/processing/static/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/nlpvenv/lib/python3.6/site-packages/pip/_vendor/distlib/locators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="712" column="26" selection-start-line="712" selection-start-column="26" selection-end-line="712" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/nlp/processing/skills.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret column="13436" selection-start-column="13436" selection-end-column="13436" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/nlp/processing/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/nlp/processing/templates/messages.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nlpvenv/lib/python3.6/site-packages/pandas/io/parsers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="683" selection-start-line="683" selection-end-line="683" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/nlp/processing/education.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/nlp/processing/diffs.txt" />
+    <entry file="file://$PROJECT_DIR$/nlpvenv/lib/python3.6/site-packages/pandas/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/nlp/processing/migrations/0003_auto_20200504_1832.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nlpvenv/lib/python3.6/site-packages/pyresparser/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nlpvenv/lib64/python3.6/site-packages/nltk/corpus/reader/timit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/nlp/processing/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nlpvenv/lib64/python3.6/site-packages/pyresparser/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="336" column="8" selection-start-line="336" selection-start-column="8" selection-end-line="336" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/nlp/processing/education.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/nlp/processing/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/bin/activate" />
-    <entry file="file://$PROJECT_DIR$/app/nlp/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/nlp/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/nlp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <element signature="e#627#659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/processing/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/processing/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlpvenv/lib/python3.6/site-packages/django/urls/resolvers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="672" selection-start-line="672" selection-end-line="672" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/processing/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/processing/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/nlp/processing/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="15">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/processing/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/app/nlp/processing/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/processing/static/js/index.js">
+    <entry file="file://$PROJECT_DIR$/app/nlp/processing/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="1080">
+          <caret line="72" column="47" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/processing/static/images/home-bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/nlp/processing/static/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/app/nlp/processing/extractor_from_text.py" />
+    <entry file="file://$PROJECT_DIR$/app/nlp/processing/extractor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="15" />
+        <state relative-caret-position="375">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/nlp/processing/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-705">
+          <caret line="53" column="74" selection-start-line="53" selection-start-column="74" selection-end-line="53" selection-end-column="74" />
         </state>
       </provider>
     </entry>
